@@ -10,7 +10,7 @@
 > Building scalable AI Agent Platforms, Distributed Systems, Microservices, and Cloud-Native Applications.
 
 📍 Damoh, Madhya Pradesh, India  
-📧 shivamnamdeo0101@gmail.com  
+📧 Email: shivamnamdeo0101@gmail.com  
 💼 LinkedIn: https://www.linkedin.com/in/shivamnamdeo0101
 
 ---
