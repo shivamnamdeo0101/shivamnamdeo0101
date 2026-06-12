@@ -40,7 +40,7 @@
 </p>
 
 
-### 🏢 Domains
+### ⚡  Domains
 
 <p>
   <img src="https://img.shields.io/badge/Healthcare_&_Life_Sciences-005EB8?style=for-the-badge" />
@@ -51,7 +51,7 @@
   <img src="https://img.shields.io/badge/Enterprise_Data_Platforms-2E7D32?style=for-the-badge" />
 </p>
 
-### 🔐 Building Kavach
+### ⚡  Building Kavach
 
 **Kavach** is an open-source ecosystem for building secure, reliable, and production-ready AI Agent systems.
 
