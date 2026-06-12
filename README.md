@@ -43,6 +43,7 @@
 ### ⚡  Domains
 
 <p>
+  <img src="https://img.shields.io/badge/FinTech-1565C0?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Healthcare_&_Life_Sciences-005EB8?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Pharmaceutical_Analytics-6A1B9A?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hospitality_&_Revenue_Management-D35400?style=for-the-badge" />
