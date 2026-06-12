@@ -1,75 +1,66 @@
 # Shivam Namdeo 🚀
-Senior AI Engineer — Building "Kavach" — an AI Agent Ecosystem
+Senior Software Engineer · AI Agent Systems · Full‑Stack
 
 [![Profile views](https://komarev.com/ghpvc/?username=shivamnamdeo0101&color=0e75b6)](https://github.com/shivamnamdeo0101)
-[![GitHub followers](https://img.shields.io/github/followers/shivamnamdeo0101?label=Follow&style=social)](https://github.com/shivamnamdeo0101)
-[![Kavach MCP Middleware](https://img.shields.io/badge/Project-kavach--mcp--middleware-blue?logo=github)](https://github.com/shivamnamdeo0101/kavach-mcp-middleware)
+[![Follow](https://img.shields.io/github/followers/shivamnamdeo0101?label=Follow&style=social)](https://github.com/shivamnamdeo0101)
+[![Project: kavach-mcp-middleware](https://img.shields.io/badge/Project-kavach--mcp--middleware-blue?logo=github)](https://github.com/shivamnamdeo0101/kavach-mcp-middleware)
 
-Hi — I'm Shivam. I design and build agent-first AI systems and the infra that lets them operate safely, reliably, and at scale. Currently focused on Kavach — a modular AI Agent Ecosystem that brings orchestration, memory, tool-use, resilience, and governance together as composable packages.
+Location: Damoh, MP, India • Email: shivamnamdeo0101@gmail.com • [LinkedIn](https://www.linkedin.com/in/shivamnamdeo0101)
+
+Hi — I design and build production-ready, agent-first AI systems and the engineering infrastructure that powers them. Currently building Kavach: a modular AI Agent Ecosystem for safe, resilient, and observable agent orchestration.
 
 Quick links
-- 🔭 Current: Building Kavach — AI Agent Ecosystem (kavach-*)
+- 🔭 Current: Kavach — AI Agent Ecosystem (kavach-*)
 - 📁 Featured repo: kavach-mcp-middleware — https://github.com/shivamnamdeo0101/kavach-mcp-middleware
-- 💬 Ask me about agent orchestration, tool integrations, memory systems, and production ML infra.
+- 💬 Areas: agent orchestration, memory systems, tool integrations, production ML infra
 
-Tech & competencies
-(If you'd like, tell me which of these to keep or swap — I can add exact badges.)
-- Languages & runtimes: TypeScript, Python, Go
-- Infra & tooling: Docker, Kubernetes, Redis, PostgreSQL, Terraform
-- AI & models: OpenAI, Claude / Anthropic, Hugging Face
-- Patterns: Multi-agent orchestration, tool-use, memory-augmented retrieval, idempotency, schema-validated outputs
+Domains I’ve worked in
+- Healthcare & Pharma analytics
+- Revenue management & travel tech
+- FinTech & enterprise analytics
 
-Badges (quick examples — I can tailor these to exact languages & services you want)
-![TypeScript](https://img.shields.io/badge/TypeScript-000?logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+Experience highlights
+- Publicis Sapient — Built a Data Management & Analytics platform (React, TypeScript, FastAPI, PostgreSQL, AWS, Docker, K8s).
+- Designed microservices and async data pipelines processing millions of records.  
+- Built Spring Boot microservices, Spark ETL, Kafka messaging, and analytics for global properties.  
 
-Why Kavach — AI Agent Ecosystem
-- Modular packages so each capability is testable and replaceable.
-- Focus on safety, idempotency, observability, and human-in-the-loop control.
-- Designed for production workloads: rate limiting, parallel execution, and cost-aware routing built-in.
+Tech & tools (badges)
+![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 
-Core architecture patterns (pattern → package → purpose → example)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white)
 
-| Pattern | Package | Purpose | Example |
-|---|---|---|---|
-| ReAct Loop | kavach-workflow-engine | Thought → Action → Observation → Reflection cycle | Agent researches topic, calls API, reads result, decides next step |
-| Chain of Thought | kavach-agent-runtime | Break complex problem into sequential steps | "First, search for data → Then analyze → Then summarize" |
-| Tool Use / Function Calling | kavach-connector-* | Agent calls external APIs/tools | create_calendar_event(), query_database() |
-| Multi-Agent Orchestration | kavach-workflow-engine | Multiple agents collaborate on single task | Agent A researches, Agent B writes, Agent C reviews |
-| Hierarchical Planning | kavach-workflow-engine | Break goal into subtasks with DAG | Goal: "Build a report" → [Collect data, Analyze, Format] |
-| Memory-Augmented Retrieval | kavach-state-memory | Use stored context to inform decisions | Agent recalls previous customer interactions |
-| Reflection & Self-Correction | kavach-agent-runtime | Agent reviews its output and fixes errors | Agent checks math, corrects if wrong, retries |
-| Fallback & Resilience | kavach-resilience | Retry with different model/strategy if first fails | Claude fails → Try GPT-4; API timeout → Use cache |
-| Rate Limiting & Backpressure | kavach-throttle | Control flow of requests through agent | Max 100 concurrent agents, queue excess |
-| Human-in-the-Loop | kavach-hitl-manager | Pause execution for human approval | High-risk decision → Ask user → Resume |
-| Event-Driven Reactivity | kavach-event-hub | Agent triggered by events (not polling) | "New Slack message" event → Trigger agent |
-| Cost-Aware Routing | kavach-billing-meter | Choose cheaper model if latency allows | Fast question → GPT-3.5 ($0.001); Complex → Claude ($0.01) |
-| Context Window Management | kavach-state-memory | Manage token budget; summarize old context | Truncate old messages when hitting token limit |
-| Tool Availability Gating | kavach-agent-runtime | Only expose relevant tools to agent | Customer agent can't access admin tools |
-| Parallel Tool Execution | kavach-worker-pool | Call multiple tools concurrently | Get weather + forecast + historical data in parallel |
-| Idempotent Execution | kavach-idempotency | Same request → Same response (no duplicate LLM calls) | Slack resend of same message → Return cached result |
-| Semantic Caching | kavach-state-memory | Cache responses by meaning not just text | Similar questions → Use cached answer |
-| Output Validation | kavach-schema-bridge | Ensure agent output matches expected schema | Check JSON matches OpenAPI spec |
-| Guardrails & Content Filtering | kavach-shield | Prevent unsafe/unethical outputs | Block hate speech, PII leakage, hallucinations |
-| Streaming Responses | kavach-worker-pool | Return partial results as they're generated | Send tokens to user as LLM generates them |
+![Postgres](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-D82C20?logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white) ![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apache-spark&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
+
+![OpenAI](https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white) ![LLMs](https://img.shields.io/badge/LLMs-8A2BE2)
+
+Building - (Kavach — AI Agent Ecosystem)
+Kavach is a small‑package, composable ecosystem designed to run reliable AI agents in production. It focuses on modularity, safety, idempotency, observability, and human control so teams can adopt pieces independently and scale confidently.
+
+Core packages (package → purpose)
+- kavach-workflow-engine — ReAct loops, multi-agent orchestration, hierarchical planning (DAGs)  
+- kavach-agent-runtime — Chain-of-thought execution, reflection & self-correction, tool gating  
+- kavach-connector-* — Pluggable connectors for APIs, databases, and services  
+- kavach-state-memory — Token-window management, semantic caching, memory-augmented retrieval  
+- kavach-resilience — Fallbacks, retries, model switching and circuit-breakers  
+- kavach-throttle — Rate-limiting and backpressure controls  
+- kavach-hitl-manager — Human-in-the-loop approval and gating flows  
+- kavach-schema-bridge — Output validation and schema enforcement  
+- kavach-shield — Guardrails, content filtering, PII/unsafe content protection  
+- kavach-mcp-middleware — Middleware for telemetry, threat detection, async processing (featured)
+
+Principles
+- Composable and opinionated packages with clear interfaces  
+- Idempotent execution and semantic caching to reduce cost and duplication  
+- Observability-first (telemetry, tracing, health checks)  
+- Human-centred safety and explainability hooks
 
 Featured project
-- kavach-mcp-middleware — A central middleware layer for Kavach. (https://github.com/shivamnamdeo0101/kavach-mcp-middleware)
-  - Role: orchestration glue, connector routing, model selection policies, and telemetry hooks.
+- kavach-mcp-middleware — https://github.com/shivamnamdeo0101/kavach-mcp-middleware  
+  Security middleware for Model Context Protocol (MCP) that detects and blocks malicious tool calls using pattern-based rule scanning.
 
-How to use this profile README
-- Copy this file into a repo named `shivamnamdeo0101` (exactly your GitHub username) to make it your profile README.
-- Tell me which exact tech badges you want (I’ll generate the shields.io links), and whether to add links to other repos or your email/socials.
-- If you want, I can push this directly to your GitHub profile repo — confirm the repo name and grant permission.
-
-Contact
-- GitHub: https://github.com/shivamnamdeo0101
-- If you'd like, provide an email or LinkedIn and I will add contact buttons.
 
 ---
-Design notes
-- Minimal, senior, and actionable: clear headline, one-line summary, featured project, and a compact architecture table.
-- Emojis and badges to increase scannability; links for quick access.
-- Everything is easy to update — tell me which tech badges to include and I’ll update the README and commit it.
