@@ -10,9 +10,9 @@ Location: Damoh, MP, India • Email: shivamnamdeo0101@gmail.com • [LinkedIn](
 Hi — I design and build production-ready, agent-first AI systems and the engineering infrastructure that powers them. Currently building Kavach: a modular AI Agent Ecosystem for safe, resilient, and observable agent orchestration.
 
 Quick links
-- 🔭 Current: Kavach — AI Agent Ecosystem (kavach-*)
+- 🔭 Building Kavach — AI Agent Ecosystem
 - 📁 Featured repo: kavach-mcp-middleware — https://github.com/shivamnamdeo0101/kavach-mcp-middleware
-- 💬 Areas: agent orchestration, memory systems, tool integrations, production ML infra
+- Security middleware for Model Context Protocol (MCP) that detects and blocks malicious tool calls using pattern-based rule scanning.
 
 Domains I’ve worked in
 - Healthcare & Pharma analytics
@@ -20,9 +20,10 @@ Domains I’ve worked in
 - FinTech & enterprise analytics
 
 Experience highlights
-- Publicis Sapient — Built a Data Management & Analytics platform (React, TypeScript, FastAPI, PostgreSQL, AWS, Docker, K8s).
+- Publicis Sapient —
+- Built a Data Management & Analytics platform (React, TypeScript, FastAPI, PostgreSQL, AWS, Docker, K8s).
 - Designed microservices and async data pipelines processing millions of records.  
-- Built Spring Boot microservices, Spark ETL, Kafka messaging, and analytics for global properties.  
+- Built Spring Boot microservices, Spark ETL, Kafka messaging, and analytics for global hotel properties.  
 
 Tech & tools (badges)
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
@@ -60,7 +61,6 @@ Principles
 
 Featured project
 - kavach-mcp-middleware — https://github.com/shivamnamdeo0101/kavach-mcp-middleware  
-  Security middleware for Model Context Protocol (MCP) that detects and blocks malicious tool calls using pattern-based rule scanning.
-
+  
 
 ---
