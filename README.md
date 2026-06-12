@@ -7,7 +7,7 @@ Senior Software Engineer · AI Agent Systems · Full‑Stack
 
 Location: Damoh, MP, India • Email: shivamnamdeo0101@gmail.com • [LinkedIn](https://www.linkedin.com/in/shivamnamdeo0101)
 
-Hi — I design and build production-ready, agent-first AI systems and the engineering infrastructure that powers them. Currently building Kavach: a modular AI Agent Ecosystem for safe, resilient, and observable agent orchestration.
+Hi 👋, I design and build production-ready, agent-first AI systems and the engineering infrastructure that powers them. Currently building Kavach: a modular AI Agent Ecosystem for safe, resilient, and observable agent orchestration.
 
 Quick links
 - 🔭 Building Kavach — AI Agent Ecosystem
