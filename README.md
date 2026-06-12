@@ -1,4 +1,4 @@
-# Shivam Namdeo 🚀
+# Shivam Namdeo 
 Senior Software Engineer · AI Agent Systems · Full‑Stack
 
 [![Profile views](https://komarev.com/ghpvc/?username=shivamnamdeo0101&color=0e75b6)](https://github.com/shivamnamdeo0101)
