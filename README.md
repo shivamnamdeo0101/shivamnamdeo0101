@@ -165,4 +165,4 @@ https://github.com/shivamnamdeo0101/kavach-mcp-middleware
 
 ---
 
-### 💡 Build systems that scale. Design platforms that last.
+### 💡 Build systems that scale.
