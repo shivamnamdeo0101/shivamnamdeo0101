@@ -64,6 +64,6 @@
 🔹 Human-in-the-Loop Governance  
 🔹 Observability, Reliability & Guardrails  
 
-🔗 **GitHub:** https://github.com/shivamnamdeo0101/kavach-mcp-middleware
+🔗 **GitHub:** [https://github.com/shivamnamdeo0101/kavach-mcp-middleware](https://github.com/shivamnamdeo0101/kavach-agent-ecosystem)
 
 ---
